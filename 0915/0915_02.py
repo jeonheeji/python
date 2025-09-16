@@ -122,4 +122,14 @@ b = {1, 2, 3, 4, 5}
 c = {6, 7, 8}
 
 # 부분집합확인 논리 연산자로 비교도 가능
-print(a.issubset(b))  # a가 b의 부분집합인가요?
+print(a.issubset(b))  # a가 b의 부분집합인가요? true
+
+# 상위집합인지
+print(a.issuperset(b))  # a는 b의 상위집합인가요? false
+
+# 서로수집합
+print(a.isdisjoint(c))  # a와 c는 서로수 집합이니? true
+
+# frozenset() = 불변집합
+fs1 = frozenset([1, 2, 3, 3, 4])
+# fs1.add 불가능 불변이니께,, 수정 불가하다

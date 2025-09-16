@@ -6,12 +6,17 @@ for i in range(len(numbers)):
     numbers[i] *= 2
 print(numbers)
 
+print([num*2 for num in numbers])
+
 # 문제2 문자열의 길이 구해서 새 리스트 만들기
 words = ["apple", "banana", "kiwi", "grape"]
 lenth = []
 for i in range(len(words)):
     lenth.append(len(words[i]))
 print(lenth)
+
+len_words = [len(word) for word in words]
+print(len_words)
 
 # 문제3 좌표 튜플에서 x,y좌표 나누기
 coordinates = [(1, 2), (3, 4), (5, 6), (7, 8)]
@@ -21,3 +26,7 @@ for x, y in coordinates:
     x_values.append(x)
     y_values.append(y)
 print(x_values, y_values)
+
+x_values2 = [x for x, y in coordinates]
+y_values2 = [y for x, y in coordinates]
+print(x_values2, y_values2)
