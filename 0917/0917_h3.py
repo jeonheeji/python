@@ -12,7 +12,16 @@ while code != secret_code:
 print("정답")
 
 # 문제2 유효한 나이만 평균내기
-num1, num2, num3, num4, num5 = input("숫자를 입력하세요", sep=",")
-i = 1
-# while i > 5:
-# if int(input("숫자를 입력하세요")) <= 0 or int(input("숫자를 입력하세요"))
+times = 0
+sum_age = 0
+num = 0
+while times < 5:
+    num = int(input("나이를 입력하세요:"))
+    if num <= 0 or num > 120:
+        continue
+
+    else:
+        times += 1
+        sum_age += num
+
+print(f"총 나이 합계는 {sum_age}, 평균은 {sum_age / 5}입니다")
