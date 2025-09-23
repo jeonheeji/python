@@ -34,7 +34,7 @@ print_if(name="a", age=15, email="b")
 
 def discount(**kwargs):
     for key, value in kwargs.items():
-        print(f"{key}의 할인된 가격은 {value*0.9}")
+        print(f"{key}의 할인된 가격은 {int(value)*0.9}")
 
 
 discount(apple="1000", banana="2000", cherry="3000")

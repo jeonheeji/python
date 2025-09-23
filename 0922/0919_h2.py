@@ -14,8 +14,8 @@ class UserAccount:
 
 
 user1 = UserAccount("kim", "123")
-print(user1.check_password("456"))
-print(user1.check_password("123"))
-print(user1.change_password("456", "789"))
-user1.change_password("123", "456")
-print(user1.check_password("456"))
+print(user1.check_password("456")) # False 초기비밀번호 123 != 새로운비밀번호456
+print(user1.check_password("123")) # True 
+print(user1.change_password("456", "789")) # 비밀번호 불일치
+user1.change_password("123", "456") # 비밀번호 일치 -> 456으로 비번바꾸기
+print(user1.check_password("456")) # True 

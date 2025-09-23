@@ -128,6 +128,7 @@ print("함수 호출 후: ", numbers)
 # 가변타입 : 리스트, 딕셔너리, set
 # 함수에 원본 그대로 넘어감 (함수내 전역변수 수정 가능)
 
+# 딕셔너리 가능
 new_dic = {'name': '김철수', 'age': 20}
 
 
@@ -137,6 +138,6 @@ def change_info(info):
     info['age'] = 25
 
 
-print("함수 호출 전 :", new_dic)
+print("함수 호출 전 :", new_dic) # 원래대로
 change_info(new_dic)
-print("함수 호출 후", new_dic)
+print("함수 호출 후", new_dic) # 이영희, 25로 변경!!
