@@ -18,9 +18,9 @@ with open('member.txt', 'r', encoding='utf-8') as f:
         if user_id == input_id and user_pw == input_pw:
             print("로그인 성공")
             input_phone = input("전화번호 입력")
-            members={}
+            members = {}
             with open('member_tel.txt', 'r', 'utf-8')as f2:
-                
+
             break
         else:
             print("로그인 실패")
