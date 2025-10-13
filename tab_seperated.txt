@@ -1,0 +1,4 @@
+name	age	도시	salary
+john	25	seoul	50000
+jane	30	busan	60000
+park	35	daegu	55000

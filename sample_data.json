@@ -1,0 +1,20 @@
+[
+  {
+    "name":"john",
+    "age":25,
+    "\ub3c4\uc2dc":"seoul",
+    "salary":50000
+  },
+  {
+    "name":"jane",
+    "age":30,
+    "\ub3c4\uc2dc":"busan",
+    "salary":60000
+  },
+  {
+    "name":"park",
+    "age":35,
+    "\ub3c4\uc2dc":"daegu",
+    "salary":55000
+  }
+]
