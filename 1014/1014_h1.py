@@ -22,5 +22,5 @@ df5 = df[(df["점수"] <= 80) | (df["반"] == 2)]
 print(df5)
 
 df6 = df5[df5["점수"] >= 70]
-df6.reset_index(drop=True)
+df6.reset_index(drop=True) # drop=True를 쓰면 옛날 인덱스는 없어지고 안쓰면 인덱스가 초기화 & 옛날거 두개나옴
 print(df6)

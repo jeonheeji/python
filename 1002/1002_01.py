@@ -47,6 +47,7 @@ print(pro_se)
 scalar_se = pd.Series(0, index=["월", "화", "수", "목"], name="판매량")
 print(scalar_se)
 
+
 # 속성알아보기
 test_scores = pd.Series(data=[85, 86, 59, 97], index=[
                         "k", "l", "p", "j"], name="score")
@@ -56,7 +57,7 @@ print(test_scores.name)  # score name으로 지정해준값
 print(test_scores.dtype)  # int64 데이터의 타입
 print(test_scores.shape)  # (4,) 모양
 print(test_scores.size)  # 4 크기
-print(test_scores.ndim)
+print(test_scores.ndim) # 1 차원(왜냐하면 numpy로 만들어지니께)
 
 
 # 연습문제

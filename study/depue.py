@@ -42,5 +42,5 @@ def is_palindrome(s):  # 덱을 이용한 회문 검사
     return True
 
 
-print(is_palindrome("level"))
-print(is_palindrome("tomato"))
+print(is_palindrome("level")) # True
+print(is_palindrome("tomato")) # False

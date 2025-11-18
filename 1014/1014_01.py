@@ -16,3 +16,10 @@ employee_data = pd.DataFrame({
 })
 dept_avg = employee_data.groupby("department")["salary"].mean()
 print(dept_avg)
+
+# groupby 핵심
+# split-apply-combine
+# 3단계 프로세스
+# 1. split - 그룹으로 나누기
+# 2. apply - 각 그룹에 함수 적용
+# 3. combine - 결과를 하나로 합치기

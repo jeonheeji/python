@@ -72,7 +72,7 @@ print(uniq)  # 중복제거!
 
 uniq, idx, inv, cnt = np.unique(arr, return_index=True,
                                 return_inverse=True, return_counts=True)
-print(uniq)  # 중복제거된값
+print(uniq)  # 중복제거된 고유값
 print(idx)  # 첫등장 인덱스
 print(inv)  # 원본에서의 고유값 인덱스
 print(cnt)  # 등장횟수

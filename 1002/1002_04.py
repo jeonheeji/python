@@ -16,3 +16,11 @@ test_data = pd.DataFrame(data=[
     ["kim", 27, "dev", 4500],
     ["lee", 27, "hr", 4800]], index=["01", "02"], columns=["name", "age", "job", "money"])
 print(test_data)
+
+# 구성요소 분석
+# 행인덱스 : test_date.index.tolist() -> 행인덱스를 인덱스화해서 보여줌
+# 열이름 : test_date.columns.tolist() -> 열이름을 인덱스화해서 보여줌
+# 모양 : test_date.shape 
+# 행 개수 : test_date.shape[0]
+# 열 개수 : test_date.shape[1]
+# 전체 셀의 개수 : test_date.size
