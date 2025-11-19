@@ -1,0 +1,8 @@
+/*css 선택자 심화*/
+
+/* 복합 선택자 */
+/* 그룹 선택자 */
+
+h1,h2,h3{color:navy;}
+
+p,li,span{background-color: aqua;}
