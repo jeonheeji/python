@@ -61,3 +61,20 @@ console.log(`자기소개 :안녕하세요, 저는 ${age4}살 ${name4}입니다`
 let age2=20;
 let result=age2>=18?"성인":"미성년자";
 console.log(result);
+
+function celsiusToFahrenheit(selsius){
+    return selsius*9/5+32;
+    
+}
+console.log(celsiusToFahrenheit(0));
+console.log(celsiusToFahrenheit(100));
+
+function average(numbers){
+    let sum = 0;
+    for (let n of numbers){
+        sum+=n;
+    }
+return sum/numbers.length;
+}
+
+console.log(average([10,20,30]));
